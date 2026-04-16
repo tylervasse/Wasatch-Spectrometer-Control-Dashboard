@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter (if you ever use it)
+.ipynb_checkpoints/
+
+# Data outputs (important for your project)
+output/
+*.csv
+*.xlsx
+
+# But KEEP your calibration file
+!wasatch_wavenumbers.csv
+
+# IDEs
+.vscode/
+.idea/
+
+# Misc
+*.tmp
+*.bak
